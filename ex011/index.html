@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Graphics-Vibe-Developer-Html-5.ico" type="image/x-icon">  
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vário dispositivos ou simplesmente diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-300.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/img-600.png" type="image/png">
+        <img src="imagens/img-1000.jpg" alt="Imagem flexível">
+    </picture>
+    <hr>
+    <p>
+        <strong>CUIDADO COM MÍDIAS GRANDES</strong> o tamanho define a entrega do seu site<br>
+        <strong>CUIDADO COM DIREITOS AUTORAIS</strong>
+    </p>
+    <hr>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos reproduzir áudios em HTML5</p>
+    <audio src="midia/musica01.mp3" controls></audio>
+</body>
+</html>
